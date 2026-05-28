@@ -162,3 +162,27 @@ body {
     gap: 10px;
   }
 }
+.difficulty-select {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.difficulty-btn {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background: #111827;
+  color: white;
+  border: 1px solid #ff00ff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.difficulty-btn:hover,
+.difficulty-btn.active {
+  background: #ff00ff;
+  color: black;
+  box-shadow: 0 0 20px #ff00ff;
+}
